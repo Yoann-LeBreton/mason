@@ -1,0 +1,46 @@
+{
+    "bloc": "todo",
+    "states": [
+      {
+        "name": "loading",
+        "variables": []
+      },
+      {
+        "name": "loaded",
+        "variables": [
+          {
+            "name": "todos",
+            "type": "List<String>"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": "load",
+        "variables": []
+      },
+      {
+        "name": "add",
+        "variables": [
+          {
+            "name": "todo",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "name": "remove",
+        "variables": [
+          {
+            "name": "todo",
+            "type": "String"
+          },
+          {
+            "name": "index",
+            "type": "int"
+          }
+        ]
+      }
+    ]
+  }
